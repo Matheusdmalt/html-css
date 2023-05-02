@@ -1,0 +1,148 @@
+@charset "UTF-8" ;
+
+/*
+#F26A1B
+#F97E19
+#F29D7E
+#F20505
+#F97E19
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+:root {
+    --cor0: #F26A1B;
+    --cor1: #F97E19;
+    --cor2: #F29D7E;
+    --cor3: #F20505;
+    --cor4: #F97E19;
+
+    --fonte-padrao: Arial, Verdana, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive' ;
+    --fonte-xiomi: 'Bruno Ace SC', 'cursive'
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    background-color: var(--cor2) ;
+}
+
+header {
+    background-color: var(--cor4);
+    padding: 4px 4px;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+
+
+}
+
+ nav > a {
+padding: 10px ;
+text-decoration: none;
+color: white ;
+text-align: center;
+display: block;
+font-weight: bolder;
+
+}
+
+nav > a:hover{
+    color: blue;
+ 
+    
+}
+
+
+
+
+
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ main p {
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.2em;
+}
+
+picture {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+main h2 {
+    color: var(--cor3);
+    font-family: var(--fonte-xiomi);
+    font-size: 2em;
+    text-align: center;
+    padding: 2px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+
+}
+
+main img{
+    width: 30%;
+    display: block;
+    margin: auto;
+
+}
+
+main a {
+    font-weight: bold;
+    color: var(--cor3);
+    text-decoration: none;
+    background-color: rgba(3, 224, 3, 0.943);
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+    background-color: var(--cor3);
+    text-align: center;
+    color: white;
+    padding: 10px
+}
+
+footer strong {
+    color: black;
+}
+
+
+
+    

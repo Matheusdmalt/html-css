@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(15, 145, 192, 0.427);
+}
+
+.basico {
+    text-align: center;
+    color: rgb(198, 5, 5);
+    background-color: blue;
+    font-size: 2em;
+}
+
+.intermediario {
+    background-color: white;
+    text-align: center;
+    color: brown;
+    font-size: 2em;
+}
+
+.avancado {
+    background-color: chocolate;
+    color: coral;
+    text-align: center;
+    font-size: 2em;
+}
+
+#Seletores {
+    text-align: center;
+    font-size: 3em;
+    background-color: darkblue;
+    color: white;
+}
+
+.super {
+    font: 2em Arial;
+    background-color: darkviolet;
+    color: indianred;
+    text-align: center;
+}
+
+.paragrafo{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
