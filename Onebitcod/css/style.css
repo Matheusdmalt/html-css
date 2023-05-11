@@ -1,0 +1,13 @@
+li {
+    color: green;
+}
+
+h1 {
+    font-size: 50px;
+    color: blue;
+   background-image: linear-gradient(to bottom red, to top blue );
+}
+
+body {
+   
+}
