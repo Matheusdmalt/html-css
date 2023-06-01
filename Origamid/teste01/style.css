@@ -12,7 +12,9 @@ h2 {
   margin: 10px;
   background-color: rgba(128, 128, 128, 0.366);
 }
-.grid {
+.div {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  justify-content: end;
 }

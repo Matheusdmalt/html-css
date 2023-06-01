@@ -5,10 +5,11 @@ body {
 h1 {
   text-align: center;
 }
-.div {
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 300px 300px 300px;
   gap: 20px;
+  justify-content: center;
 }
 
 .item {
