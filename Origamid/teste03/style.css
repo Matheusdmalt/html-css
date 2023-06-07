@@ -1,11 +1,46 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 20px;
 }
 
 .botao {
   text-decoration: none;
   background-color: #a8f;
-  color: black;
+  color: #103;
   padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+}
+
+.preco {
+  background-color: #ddd;
+  padding: 5px 10px;
   border: 4px;
 }
