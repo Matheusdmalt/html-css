@@ -48,8 +48,8 @@ p {
   color: #000;
   text-transform: uppercase;
   display: block;
+  border: 2px solid transparent;
 }
-
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
