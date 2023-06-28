@@ -28,10 +28,19 @@ p {
   line-height: 1.3;
 }
 
+h2 {
+  overflow-wrap: break-word;
+}
+
 .header {
   display: grid;
   justify-items: center;
   gap: 60px;
+}
+
+div img {
+  object-fit: cover;
+  height: 100%;
 }
 
 .menu {
@@ -147,4 +156,39 @@ div.vantagens-item:nth-child(odd) {
   width: 40px;
   height: 4px;
   background-color: #900;
+}
+
+@media (max-width: 800px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .header {
+    gap: 30px;
+  }
+
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao {
+    text-align: center;
+    justify-items: start;
+  }
+
+  .introducao::before {
+    display: none;
+  }
+
+  .subtitulo {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
